@@ -8,7 +8,7 @@ This document explains the concepts of Population Stability Index (PSI) and Char
 
 CSI evaluates the stability of input features between two datasets. It's useful for pinpointing which specific features have changed in distribution, potentially leading to reduced model performance.
 
-![image.png](image.png)
+![CSI_Formulae](CSI_formulae.png)
 
 Interpretation of PSI/CSI values:
 - CSI < 0.1: No significant change; model is stable.

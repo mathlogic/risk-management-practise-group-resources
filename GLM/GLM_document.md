@@ -123,9 +123,9 @@ Step 7: Model Evaluation Functions
     o	Helps improve model generalizability and reduces overfitting.
 
 
-![image.png](image.png)
+![summary_1.png](GLM_img_01.png)
 
-![image.png](image.png)
+![summary_2.png](GLM_img_02.png)
 
 ### Reference
 

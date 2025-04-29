@@ -181,25 +181,16 @@ woe_df = clf.woe_df
 train[['x9','Target']].head(5)
 
 
-# In[ ]:
-
-
 train_x_woe = clf.transform(x)
 
-
-# In[ ]:
 
 
 train_x_woe[['x9']].head(5)
 
 
-# In[ ]:
-
 
 woe_df[woe_df['Variable_Name']=='x10'].head(5)
 
-
-# In[ ]:
 
 
 get_ipython().run_line_magic('matplotlib', 'inline')
@@ -208,31 +199,14 @@ a = BarCharts(bar_type='v')
 a.plot(woe_df[woe_df['Variable_Name'] == 'x10'])
 
 
-# In[ ]:
 
 
 pd.options.display.float_format = '{:.4f}'.format
 
 
-# In[ ]:
-
 
 clf.iv_df.sort_values(by=['Information_Value'],ascending=False)
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 

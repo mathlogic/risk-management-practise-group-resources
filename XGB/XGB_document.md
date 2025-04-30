@@ -37,6 +37,8 @@ XGBoost works by sequentially adding trees to correct the errors of previous ite
 #### 3.3 Objective Function and Optimization
 
 The core of XGBoost’s learning process is based on optimizing an objective function that balances the model's accuracy and its complexity. The general form of the objective function is:
+![image1.png](image1.png)
+![image2.png](image2.png)
 
 #### Impact on Model Training:
 

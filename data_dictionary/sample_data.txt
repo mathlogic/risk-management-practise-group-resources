@@ -1,0 +1,8 @@
+Sample data is present on dev server on following path ->
+"/home/data/manu/sample"
+
+There are 3 folders -
+1. cibil - inquiry & trade data
+2. crif - trade data
+3. experian - inquiry & trade data
+
